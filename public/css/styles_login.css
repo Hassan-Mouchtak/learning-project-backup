@@ -1,0 +1,150 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Anta&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap') */
+
+:root{
+    --first-color:#f5a299;
+    --seconde-color:#000000;
+    --tre-color:#ffffff;
+    --for-color:#f3ac53;
+    --fice-clor:#9b979f;
+    --sex-color:#f1eef3;
+
+
+
+}
+
+body{
+    background-color: var(--first-color);
+    /* font-family: "Poppins", sans-serif; */
+}
+
+
+.login-div1{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    /* border: 2px solid black; */
+    /* padding: 0px 20px 0px 20px; */
+    margin: 30px 180px 0px 180px;
+    font-size: 20px;
+    /* height: 90vh; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    background-color: white;
+    box-shadow: 10px 10px  60px black;
+    border-radius: 40px;
+}
+
+/* .login-div1-div1-avants{
+    
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 30% 0% 0% 0%;
+    background-color: var(--for-color);
+    color: white;
+   border-top-left-radius:140px ;
+   border-top-right-radius:40px ;
+   border-bottom-left-radius: 140px;
+   border-bottom-right-radius: 40px;
+
+} */
+
+
+.login-div1-div1-avants-welcomfriend{
+    /* border: 2px solid black; */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 30% 0% 0% 0%;
+    background-color: var(--for-color);
+    color: white;
+   border-top-left-radius:140px ;
+   border-top-right-radius:40px ;
+   border-bottom-left-radius: 140px;
+   border-bottom-right-radius: 40px;
+   /* display: none; */
+
+}
+
+
+
+.login-div1-div11{
+   
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 30% 0% 0% 0%;
+    background-color: var(--for-color);
+    color: white;
+    border-top-left-radius:40px ;
+    border-top-right-radius:140px ;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 140px;
+    
+    
+
+}
+
+
+
+.login-div1-div2{
+    /* border: 2px solid black; */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 5% 0% 15% 0%;
+    
+}
+
+.login-div1-div2-ul{
+    list-style-type: none;
+    display: flex;
+    padding: 0px 0px 0px 0px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.login-div1-div2-ul-li{
+    font-size: 20px;
+    margin: 0px 8px 0px 0px;
+    padding: 8px 10px 5px 10px;
+    color: var(--fice-clor);
+    border: 1px solid var(--fice-clor);
+    border-radius: 8px ;
+}
+
+.login-div1-div2-input1{
+    width: 80%;
+    height: 40px;
+    background-color: var(--sex-color);
+    border: 2px solid var(--sex-color);
+    border-radius: 8px;
+}
+
+.login-div1-div2-submit{
+    padding: 10px 45px 10px 45px;
+    font-size: 15px;
+    border: 1px solid white;
+    border-radius: 10px;
+    /* border-top-left-radius:20px ;
+    border-top-right-radius:20px ;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px; */
+    background-color: var(--for-color);
+    color: white;
+    
+}
+
+
+/* .switche{
+    display: none;
+} */
+
+/* .ajouter{
+    display: none;
+}
+#ajouter{
+    position: relative;
+    top:-593px;
+} */
